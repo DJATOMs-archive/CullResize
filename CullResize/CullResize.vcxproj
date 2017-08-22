@@ -166,7 +166,11 @@
     <ClInclude Include="resample.h" />
     <ClInclude Include="resample_avx.h" />
     <ClInclude Include="resample_functions.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="turn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CullResize.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
