@@ -40,8 +40,7 @@
 
 #include "turn.h"
 #include "resample.h"
-//#include "planeswap.h"
-#include "../core/internal.h"
+#include "internal.h"
 #include <tmmintrin.h>
 #include <stdint.h>
 

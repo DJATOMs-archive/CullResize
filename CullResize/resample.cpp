@@ -36,13 +36,11 @@
 #include "resample_avx.h"
 #include "resample_avx2.h"
 #include <avs/config.h>
-#include "../core/internal.h"
+#include "internal.h"
 
 #include "turn.h"
 #include <avs/alignment.h>
 #include <avs/minmax.h>
-#include "../convert/convert_planar.h"
-#include "../convert/convert_yuy2.h"
 
 #include <type_traits>
 // Intrinsics for SSE4.1, SSSE3, SSE3, SSE2, ISSE and MMX
